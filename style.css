@@ -1,0 +1,172 @@
+.
+{
+    margin: 0;
+    padding: 0;
+
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,darkgoldenrod,darkorange);
+    padding: 0  !important;
+}
+.navbar-brand img{
+    height: 50px;
+    padding-left: 10px;
+}
+.navbar-nav li{
+    padding: 0px 10px;
+}
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+
+/*-----banner section---*/
+
+#banner{
+    background-image: linear-gradient(to right,darkgoldenrod,darkorange);
+    color: whitesmoke;
+    padding-top: 5%;
+    text-transform: uppercase;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 100px;
+    font-family: "Stencil Std";
+}
+.title img{
+    height: 50px;
+    padding-left: 10px;
+}
+.imgpubg{
+    height: 50vh;
+    width: 50%;
+}
+.bottomimg{
+    width: 100%;
+}
+
+/*----------About-----------*/
+.aboutimg{
+    height: 25vh;
+    width: 20%;
+}
+.title2{
+    content: '';
+    background: darkorange;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: DialogInput;
+    transform: translateY(5px);
+    color: darkorange;
+}
+#about .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,darkorange,darkgoldenrod);
+}
+
+/*--------About Team-------*/
+ .title3{
+     font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+    font-family: DialogInput;
+     color: darkorange;
+ }
+ #aboutteam{
+     background: whitesmoke;
+     padding-bottom: 50px;
+     padding-top: 50px;
+     text-transform: capitalize;
+ }
+.imagee{
+    height: 35vh;
+    width: 60%;
+    margin: 10px;
+}
+.imagee img{
+    width: 50px;
+}
+.aboutteam img {
+    height: 70px;
+    width: 70px;
+    border-radius: 70%;
+    margin: 0px 10px;
+}
+.person1{
+    display: inline-block;
+    font-size: 15px;
+}
+
+#socialmedia{
+    background: whitesmoke;
+    padding: 20px 0;
+    color: darkorange;
+}
+#socialmedia{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-family: DialogInput;
+
+}
+.sicons img{
+    width: 40px;
+    margin: 20px;
+}
+.sicons a:hover img{
+    transform: translateY(-10px);
+}
+#footer{
+    background-color: darkorange;
+    background-image: linear-gradient(to right,darkgoldenrod,darkorange);
+}
+.footerimg{
+    width: 100%;
+}
+.footerbox{
+    padding: 20px;
+}
+.footerbox img{
+    width: 300px;
+    margin-bottom: 20px;
+}
+.footerbox2 img{
+    width: 300px;
+    margin-bottom: 20px;
+}
+.footerbox .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right,darkorange,darkgoldenrod);
+}
+hr{
+    background-color: whitesmoke;
+}
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
